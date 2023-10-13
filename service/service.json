@@ -1,0 +1,56 @@
+[
+    {
+        "_id": "5ff81d9efc794d14dc897071",
+        "taskId": 1,
+        "name": "Advanced JavaScript Tutorial",
+        "img": "https://i.ibb.co/gWHq1PG/js.png",
+        "rating": "4.8",
+        "price": "3000",
+        "description": "The rise of the web has taken JavaScript places it was never conceived to be. It has become one of the most important languages in today’s world. In our previous JavaScript Tutorial, we discussed all the basics and fundamentals of the language. In this Advanced JavaScript Tutorial, we will learn about some of the advanced aspects of the programming language in the following sequence:Overview of JavaScript:Advanced Working with Functions,JavaScript Namespaces,Prototypes,Error Handling,Modules in JavaScript,Chaining JavaScript Methods,Generators "
+    },
+    {
+        "_id": "5ff81d9efc794d14dc897072",
+        "taskId": 2,
+        "name": "Node.js Tutorial for Beginners",
+        "img": "https://i.ibb.co/k5GnKMg/node.png",
+        "rating": "4.5",
+        "price": "2000",
+        "description": "Node.js is a very powerful JavaScript-based platform built on Google Chrome's JavaScript V8 Engine. It is used to develop I/O intensive web applications like video streaming sites, single-page applications, and other web applications. Node.js is open source, completely free, and used by thousands of developers around the world.This tutorial is designed for software programmers who want to learn the basics of Node.js and its architectural concepts. This tutorial will give you enough understanding on all the necessary components of Node.js with suitable examples."
+    },
+    {
+        "_id": "5ff81d9efc794d14dc897073",
+        "taskId": 3,
+        "name": "Python with Problem Solving",
+        "img": "https://i.ibb.co/ZBnY06v/python.png",
+        "rating": "4",
+        "price": "3000",
+        "description": "Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than possible in languages such as C++ or Java.Python supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles. It features a dynamic type system and automatic memory management and has a large and comprehensive standard libraryThe best way we learn anything is by practice and exercise questions. We have started this section for those (beginner to intermediate) who are familiar with Python. Hope, these exercises help you to improve your Python coding sills. Currently, following sections are available, we ae working hard to add more exercises .... Happy Coding!"
+    },
+    {
+        "_id": "5ff81d9efc794d14dc897074",
+        "taskId": 4,
+        "name": "Git and GitHub Tutorial",
+        "img": "https://i.ibb.co/d4ybhpF/git.png",
+        "rating": "4.2",
+        "price": "1000",
+        "description": "A quick aside: git and GitHub are not the same thing. Git is an open-source, version control tool created in 2005 by developers working on the Linux operating system; GitHub is a company founded in 2008 that makes tools which integrate with git. You do not need GitHub to use git, but you cannot use GitHub without using git. There are many other alternatives to GitHub, such as GitLab, BitBucket, and “host-your-own” solutions such as gogs and gittea. All of these are referred to in git-speak as “remotes”, and all are completely optional. You do not need to use a remote to use git, but it will make sharing your code with others easier."
+    },
+    {
+        "_id": "5ff81d9efc794d14dc897075",
+        "taskId": 5,
+        "name": "Data Science and Machine Learning",
+        "img": "https://i.ibb.co/1rZnBWp/machine.jpg",
+        "rating": "4.6",
+        "price": "3000",
+        "description": "Perhaps the most popular data science methodologies come from machine learning. What distinguishes machine learning from other computer guided decision processes is that it builds prediction algorithms using data. Some of the most popular products that use machine learning include the handwriting readers implemented by the postal service, speech recognition, movie recommendation systems, and spam detectors. In this course, part of our Professional Certificate Program in Data Science, you will learn popular machine learning algorithms, principal component analysis, and regularization by building a movie recommendation system. You will learn about training data, and how to use a set of data to discover potentially predictive relationships. As you build the movie recommendation system, you will learn how to train algorithms using training data so you can predict the outcome for future datasets. You will also learn about overtraining and techniques to avoid it such as cross-validation. All of these skills are fundamental to machine learning."
+    },
+    {
+        "_id": "5ff81d9efc794d14dc897076",
+        "taskId": 6,
+        "name": "Django For Web Development & AI",
+        "img": "https://i.ibb.co/CJhZ2dm/dj.jpg",
+        "rating": "4.1",
+        "price": "1500",
+        "description": "Django is a free and open-source web framework that follows the model template view (MTV) architecture. It is developed for the python programming language which itself is a high level programming language that is designed for faster development. Python django together have many uses, including the development of backend web development and artificial intelligence integration. This article will focus on why that is in great detail, but first let's go over the performance of the programming language & the framework in question in the market. It is also one of the most popular frameworks that is used by programmers today. Python was ranked as the third most popular web development language in 2021, according to Statista. Since these days django & python are very intertwined, any developers that know both technologies are in very high demand. Python was first used by developers for general purpose development, but its growing popularity also led to it being used in the realm of artificial intelligence. Now, Python is preferred by over 45% of companies for artificial intelligence development."
+    }
+]
