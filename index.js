@@ -26,6 +26,7 @@ async function run() {
     try {
         const serviceCollection = client.db('onlineMentor').collection('service');
         const reviewCollection = client.db('onlineMentor').collection('review');
+        const addServiceCollection = client.db('onlineMentor').collection('addService');
 
         app.get('/service', async (req, res) => {
             const query = {};
@@ -60,6 +61,12 @@ async function run() {
             const review = await cursor.toArray();
             res.send(review);
         });
+
+        app.post('/services', async (req, res) => {
+            const addService = req.body;
+            const result = await serviceCollection.insertOne(addService);
+            res.send(result);
+        })
 
 
 
