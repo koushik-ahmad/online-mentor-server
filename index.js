@@ -55,12 +55,41 @@ async function run() {
             res.send(result);
         });
 
+        // app.get('/review', async (req, res) => {
+        //     const query = {};
+        //     const cursor = reviewCollection.find(query);
+        //     const review = await cursor.toArray();
+        //     res.send(review);
+        // });
+
+        // review specific user query parameter
         app.get('/review', async (req, res) => {
-            const query = {};
+            let query = {};
+
+            if (req.query.email) {
+                query = {
+                    email: req.query.email
+                }
+            }
             const cursor = reviewCollection.find(query);
             const review = await cursor.toArray();
             res.send(review);
         });
+
+        // review specific Service query parameter
+        app.get('/reviewId', async (req, res) => {
+            let query = {};
+
+            if (req.query.serviceId) {
+                query = {
+                    serviceId: req.query.serviceId
+                }
+            }
+            const cursor = reviewCollection.find(query);
+            const review = await cursor.toArray();
+            res.send(review);
+        });
+
 
         app.post('/services', async (req, res) => {
             const addService = req.body;
@@ -95,7 +124,6 @@ async function run() {
             const result = await reviewCollection.deleteOne(query);
             res.send(result);
         });
-
 
 
 
